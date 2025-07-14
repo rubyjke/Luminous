@@ -1,12 +1,14 @@
 # Luminous 
-A mini drone for light painting. Design your light path at https://luminous-azure.vercel.app/, set up your camera, and let the drone do the rest. 
+A mini drone for light painting. Design your light path at https://luminous-azure.vercel.app/, set up your camera, and let the drone do the rest. [Demo](https://youtube.com/shorts/4vx-aAUTTUI?si=ylf-yEw3OeNfD0n1) and [Website](https://luminous-azure.vercel.app/)
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/70b0d1db7289c978004c9860e64a17e661531093_img_8569.jpg)
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c49f2110937be9f2f97de7602ea717568374698c_image.png)
 
 ### What's light painting?
 Light painting is a photographic technique that uses a moving light source (our drone) to *paint* over a scene while taking a long exposure photograph. A few couple of the photo effect this produces:
+![Ruby](/public/heart.JPG)
+![Ghub](/public/ghub.JPG)
 ![Image of a woman in a navy dress with yellow and white light painted arches](https://sublument.com/images/l/i/g/h/t/light-painting-cristina-1515-102010df.jpg)
-![Light painted dinosaur skeleton](https://64.media.tumblr.com/b159b70de17b5e26f704a4883638f06e/tumblr_inline_nqem1ixdLq1ss29o0_1280.jpg)
+
 
 ### Why did we make Luminous?
 Light painting can be tricky, especially when you're doing it alone. You need to finish the *painting* in a set amount of time it can take quite a few takes to get the exact result you want. We wanted to find a way to address this and realized that an autnomous phone paired with path design software could allow for custom light paths to be made and executed effortlessly.
@@ -31,6 +33,9 @@ The optical flow sensor is to allow the drone to track its position and maintain
 **Software:**
 Part 1: Ardupilot Configuration
 This is the trickiest part of the entire project by far. Theres a lot of configuration options in this firmware and its hard to get all the sensors working. The biggest thing to note is for the optical flow sensor, you have to have it using MAVLink and correctly set it to use the MAV_apm protocol. Also go through normal ardupilot setup of course, with motors, receiver, ESC, etc.
+![website](/public/website.png)
+![render](/public/render.png)
+
 Part 2: Luminous software
 We created a custom flight map generator where you can draw the pattern you want to see, and it automatically generates the flight path for the drone which you can then upload to draw your painting. It converts your drawing into waypoints for the Ardupilot software to use and scales it according to your surroundings. We used react + nextjs for the website and used some ardupilot python scripts to generate the flightpaths.
 
