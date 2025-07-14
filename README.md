@@ -13,13 +13,12 @@ Light painting can be tricky, especially when you're doing it alone. You need to
 The project also combined our hobbies: art, photogrphy, and drone design. 
 
 ### BOM
-Bill of materials: 
-|MicoAir MTF-02P Optical Flow & 6m Range Lidar|
-|BetaFPV Lava 3S 450 mAh 75C XT30 LiPO (2Pcs)|
-|Happymodel Mobula Frame Kit|
-|Gemfan 5-Blade D51-5 Cinewhoop Prop (4CW & 4CCW)- T-Mount|
-|VCI Spark 1104 7100KV Motor (2Pcs)|
-|SpeedyBee F405 Mini 20x20 Flight Controller|
+- MicoAir MTF-02P Optical Flow & 6m Range Lidar
+- BetaFPV Lava 3S 450 mAh 75C XT30 LiPO (2Pcs)
+- Happymodel Mobula Frame Kit
+- Gemfan 5-Blade D51-5 Cinewhoop Prop (4CW & 4CCW)- T-Mount
+- VCI Spark 1104 7100KV Motor (2Pcs)
+- SpeedyBee F405 Mini 20x20 Flight Controller
 ---
 **Disclaimer**
 We fried our sensor so *our* drone can't map the path autonomously, however we're pretty confident that if you build a replica with a working sensor that it'll work just fine!
