@@ -4,7 +4,7 @@ A mini drone for light painting. Design your light path at [website domain], set
 
 ## What's light painting? 
 Light painting is a photographic technique that uses a moving light source (our drone) to *paint* over a scene while taking a long exposure photograph. A few couple of the photo effect this produces:
-![Image of a woman in a navy dress with yellow and white light painted arches](https://sublument.com/images/l/i/g/h/t/light-painting-cristina-1515-102010df.jpg =150x50)
+![Image of a woman in a navy dress with yellow and white light painted arches](https://sublument.com/images/l/i/g/h/t/light-painting-cristina-1515-102010df.jpg)
 ![Light painted dinosaur skeleton](https://64.media.tumblr.com/b159b70de17b5e26f704a4883638f06e/tumblr_inline_nqem1ixdLq1ss29o0_1280.jpg)
 
 ## Why did we make Luminous?
